@@ -1,0 +1,27 @@
+.columns{
+    grid-template-columns: auto;
+    justify-content: center;
+}
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: rgb(70, 70, 70);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+.box h2{
+    color: rgb(0, 172, 172);
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.box p{
+    color: white;
+    font-size: 1.1rem;
+}
+.about{
+    flex-direction: column;
+}
+.about h2{
+    text-align: center;
+}
